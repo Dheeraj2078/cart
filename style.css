@@ -1,0 +1,124 @@
+body {
+     font-family: "Roboto", sans-serif;
+    background-color: #DDE6ED;
+}
+  
+  .navigationWrapper {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 900px;
+    border-radius: 10px;
+  
+    .logoWrapper {
+      display: flex;
+  
+      .stylish {
+        font-weight: bold;
+        font-size: 30px;
+      }
+  
+      .logo {
+        padding-left: 4px;
+        color: #ea4f4c;
+        font-size: 30px;
+      }
+    }
+  }
+
+
+
+
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* justify-content: space-around;
+    align-items: center; */
+   /* background-color:aqua; */
+   /* flex-wrap: wrap; */
+   /* flex-flow: row wrap; */
+   /* height: 1000px; */
+   flex-grow: 1;
+   
+}
+
+
+.single-cell{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+    background-color:#526D82;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    /* width: 60px; */
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.main-section{
+  display: flex;
+  justify-content: center;
+}
+
+.leftSide{
+  /* background-color: #ea4f4c; */
+  /* width: 80%; */
+}
+.rightSide{
+  /* background-color: antiquewhite; */
+  width: 70%;
+}
+
+.image{
+  height: 100px;
+  width: 100px;
+}
+
+
+.single-price-item{
+  margin: 5px;
+  padding: 5px;
+  background-color: #27374D;
+  color:#DDE6ED;
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.total-price-item{
+  margin: 5px;
+  padding: 5px;
+  background-color: black;
+  color:#DDE6ED;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.empty-cart{
+  margin:5px;
+  font-size: 30px;
+}
